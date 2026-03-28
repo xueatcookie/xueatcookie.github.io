@@ -1,0 +1,39 @@
+body{font-family:Arial;margin:0;background:#fff;color:#222;}
+
+.header{
+display:flex;justify-content:space-between;
+padding:15px 40px;border-bottom:1px solid #eee;
+}
+
+.logo{height:40px;transform:rotate(180deg);}
+
+.nav{display:flex;gap:20px;align-items:center;}
+
+.order{background:#ffbc0d;border:none;padding:10px 15px;}
+
+.hero{
+display:flex;align-items:center;
+padding:80px;gap:80px;
+}
+
+.burger{width:500px;}
+
+.hero-text{max-width:500px;}
+
+.hero-text h1{font-size:56px;margin:0;}
+
+.cal{font-size:20px;margin:10px 0;}
+
+.ingredients{
+background:#f6f6f6;text-align:center;padding:80px;
+}
+
+.row{display:flex;justify-content:center;gap:40px;margin-top:40px;}
+
+.row img{width:90px;}
+
+.nutrition{padding:80px;text-align:center;}
+
+.summary{display:flex;justify-content:center;gap:80px;margin-top:30px;}
+
+a{color:#006bae;}
