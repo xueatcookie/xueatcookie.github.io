@@ -81,7 +81,7 @@ a:hover{
 .ingredients{
   background:#f6f6f6;
   text-align:center;
-  padding:100px 40px;
+  padding:120px 40px;
 }
 
 .ingredients h2{
@@ -89,18 +89,24 @@ a:hover{
   margin-bottom:50px;
 }
 
+/* FIXED ROW ALIGNMENT */
 .row{
   display:flex;
   justify-content:center;
-  gap:60px;
+  align-items:flex-start;   /* KEY FIX */
+  gap:80px;
   flex-wrap:wrap;
 }
 
 .row div{
   text-align:center;
+  width:120px;              /* EVEN SPACING */
 }
 
 .row img{
   width:90px;
-  margin-bottom:10px;
+  height:90px;              /* SAME HEIGHT */
+  object-fit:contain;       /* NO STRETCH */
+  margin-bottom:15px;
+  transform: rotate(0deg);  /* FIX TILTED IMAGE */
 }
