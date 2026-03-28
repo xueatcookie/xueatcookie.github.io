@@ -37,7 +37,7 @@ body{
   display:flex;
   justify-content:center;
   align-items:center;
-  gap:120px;
+  gap:60px;
   padding:80px 0;
   max-width:1400px;
   margin:0 auto;
