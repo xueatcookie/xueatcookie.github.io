@@ -1,106 +1,62 @@
-body{
+body {
+  margin: 0;
   font-family: Arial, sans-serif;
-  margin:0;
-  background:#fff;
-  color:#222;
+  background: #f3f3f3;
+  color: #292929;
 }
 
-/* HEADER */
-.header{
-  display:flex;
-  justify-content:space-between;
-  padding:20px 60px;
-  border-bottom:1px solid #eee;
+.hero {
+  max-width: 1600px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 110px;
+  padding: 40px 60px;
+  box-sizing: border-box;
 }
 
-.logo{
-  height:40px;
-  transform:rotate(180deg);
+.burger {
+  width: 900px;
+  max-width: 58vw;
+  height: auto;
+  display: block;
 }
 
-.nav{
-  display:flex;
-  gap:25px;
-  align-items:center;
+.hero-text {
+  width: 470px;
+  max-width: 32vw;
 }
 
-.order{
-  background:#ffbc0d;
-  border:none;
-  padding:10px 18px;
-  border-radius:5px;
-  font-weight:bold;
+.hero-text h1 {
+  font-size: 78px;
+  line-height: 1;
+  margin: 0 0 28px 0;
+  font-weight: 700;
+  color: #292929;
 }
 
-/* HERO */
-.hero{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  gap:120px;
-  padding:80px 0;
-  max-width:1400px;
-  margin:0 auto;
+.cal {
+  font-size: 28px;
+  margin-bottom: 34px;
+  color: #292929;
 }
 
-.burger{
-  width:650px;
+.hero-text p {
+  font-size: 18px;
+  line-height: 1.65;
+  margin: 0 0 26px 0;
+  color: #333;
 }
 
-.hero-text{
-  max-width:520px;
+a {
+  color: #006bae;
+  text-decoration: underline;
 }
 
-.hero-text h1{
-  font-size:64px;
-  margin-bottom:10px;
-}
-
-.cal{
-  font-size:22px;
-  margin-bottom:20px;
-}
-
-.hero-text p{
-  font-size:16px;
-  line-height:1.6;
-  color:#444;
-}
-
-/* LINKS */
-a{
-  color:#006bae;
-  text-decoration:none;
-}
-
-a:hover{
-  text-decoration:underline;
-}
-
-/* INGREDIENTS */
-.ingredients{
-  background:#f6f6f6;
-  text-align:center;
-  padding:100px 40px;
-}
-
-.ingredients h2{
-  font-size:36px;
-  margin-bottom:50px;
-}
-
-.row{
-  display:flex;
-  justify-content:center;
-  gap:60px;
-  flex-wrap:wrap;
-}
-
-.row div{
-  text-align:center;
-}
-
-.row img{
-  width:90px;
-  margin-bottom:10px;
+.fineprint {
+  font-size: 15px;
+  line-height: 1.55;
+  color: #333;
 }
