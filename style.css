@@ -60,15 +60,16 @@ body{
   margin-bottom:20px;
 }
 
-.hero-text p{
-  line-height:1.6;
-}
-
 /* INGREDIENTS */
 .ingredients{
   background:#f6f6f6;
   text-align:center;
   padding:120px 40px;
+}
+
+.subtitle{
+  color:gray;
+  margin-bottom:40px;
 }
 
 .row{
@@ -84,28 +85,46 @@ body{
 /* NUTRITION */
 .nutrition-section{
   background:#f6f6f6;
-  padding:80px 0;
+  padding:100px 20px;
 }
 
 .nutrition-container{
-  max-width:900px;
+  max-width:1000px;
   margin:0 auto;
+}
+
+.nutrition-section h2{
+  text-align:center;
+  margin-bottom:40px;
 }
 
 .nutrition-top{
   display:flex;
   justify-content:space-between;
+  text-align:center;
+  margin-bottom:40px;
+}
+
+.nutrition-top div{
+  flex:1;
+}
+
+.big{
+  font-size:28px;
 }
 
 .nutrition-grid{
   display:flex;
   justify-content:space-between;
-  margin-top:30px;
+  margin-bottom:60px;
 }
 
-/* ALLERGEN */
+.nutrition-grid div{
+  width:30%;
+}
+
 .allergen{
-  margin-top:50px;
+  margin-top:40px;
 }
 
 .allergen-text p{
