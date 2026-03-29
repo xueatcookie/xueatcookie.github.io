@@ -3,10 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <title>Big Mac®</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=4">
 </head>
 
-<body> 
+<body>
+
+<!-- HEADER (ADDED BACK) -->
+<div class="header">
+  <img src="logo.png" class="logo">
+
+  <div class="nav">
+    <span>Our Menu</span>
+    <span>Download App</span>
+    <span>MyMcDonald's Rewards</span>
+    <button class="order">Order Now</button>
+  </div>
+</div>
 
 <!-- HERO -->
 <div class="hero">
@@ -21,11 +33,11 @@
     </p>
 
     <p>
-      But beneath the surface, each layer tells a different story. Choices made for convenience, comfort chosen over better judgment, and small decisions repeated until they become habits. It’s familiar, easy, and hard to resist — even when we know better.
+      But beneath the surface, each layer tells a different story. Choices made for convenience, comfort chosen over better judgment, and small decisions repeated until they become habits.
     </p>
 
     <p>
-      Like many things in life, it satisfies in the moment. But what it represents lasts much longer — a reminder of how often we trade awareness for ease, and how those small compromises slowly build into something bigger.
+      Like many things in life, it satisfies in the moment — but what it represents lasts much longer.
     </p>
   </div>
 </div>
@@ -33,8 +45,7 @@
 <!-- INGREDIENTS -->
 <div class="ingredients">
   <h2>Ingredients in the Big Mac®</h2>
-
-  <p>Built from the same flaws we carry every day.</p>
+  <p class="subtitle">Built from the same flaws we carry every day.</p>
 
   <div class="row">
     <div><img src="logo.png"><p>The Need to Fit In</p></div>
@@ -48,56 +59,60 @@
 
 <!-- NUTRITION -->
 <div class="nutrition-section">
+
   <h2>Nutritional Information</h2>
-  <div class="nutrition-line"></div>
 
-  <div class="nutrition-header">
-    <h3>Nutrition Summary</h3>
-    <span class="nutrition-arrow">⌃</span>
-  </div>
+  <div class="nutrition-container">
 
-  <div class="nutrition-top">
-    <div><div class="nutrition-big">580 Cal.</div><div class="nutrition-small">Calories</div></div>
-    <div><div class="nutrition-big">25g</div><div class="nutrition-small">Protein</div></div>
-    <div><div class="nutrition-big">45g</div><div class="nutrition-small">Total Carbs</div></div>
-    <div><div class="nutrition-big">34g</div><div class="nutrition-small">Total Fat</div></div>
-  </div>
+    <!-- SUMMARY -->
+    <div class="nutrition-summary">
+      <h3>Nutrition Summary</h3>
 
-  <div class="nutrition-grid">
-    <div class="nutrition-col">
-      <div class="nutrition-row-item"><span>Saturated Fat:</span><span>11g</span></div>
-      <div class="nutrition-row-item"><span>Trans Fat:</span><span>1g</span></div>
-      <div class="nutrition-row-item"><span>Cholesterol:</span><span>85mg</span></div>
-      <div class="nutrition-row-item"><span>Dietary Fiber:</span><span>3g</span></div>
+      <div class="nutrition-top">
+        <div><div class="big">580 Cal.</div><div>Calories</div></div>
+        <div><div class="big">25g</div><div>Protein</div></div>
+        <div><div class="big">45g</div><div>Total Carbs</div></div>
+        <div><div class="big">34g</div><div>Total Fat</div></div>
+      </div>
+
+      <div class="nutrition-grid">
+        <div>
+          <p>Saturated Fat: 11g</p>
+          <p>Trans Fat: 1g</p>
+          <p>Cholesterol: 85mg</p>
+          <p>Dietary Fiber: 3g</p>
+        </div>
+
+        <div>
+          <p>Total Sugars: 7g</p>
+          <p>Added Sugars: 5g</p>
+          <p>Vitamin D: 0%</p>
+          <p>Calcium: 10%</p>
+        </div>
+
+        <div>
+          <p>Iron: 25%</p>
+          <p>Potassium: 8%</p>
+          <p>Sodium: 46%</p>
+        </div>
+      </div>
     </div>
 
-    <div class="nutrition-col">
-      <div class="nutrition-row-item"><span>Total Sugars:</span><span>7g</span></div>
-      <div class="nutrition-row-item"><span>Added Sugars:</span><span>5g</span></div>
-      <div class="nutrition-row-item"><span>Vitamin D:</span><span>0%</span></div>
-      <div class="nutrition-row-item"><span>Calcium:</span><span>10%</span></div>
+    <!-- ALLERGEN -->
+    <div class="allergen">
+      <h3>Allergen Information</h3>
+
+      <p><b>Big Mac Bun</b> — Built from conformity.</p>
+      <p><b>Beef Patty</b> — Driven by endless desire.</p>
+      <p><b>Lettuce</b> — The illusion of balance.</p>
+      <p><b>Sauce</b> — Hidden influences shaping choices.</p>
+      <p><b>Cheese</b> — Comfort over growth.</p>
+      <p><b>Pickles</b> — The aftertaste of regret.</p>
+
     </div>
 
-    <div class="nutrition-col">
-      <div class="nutrition-row-item"><span>Iron:</span><span>25%</span></div>
-      <div class="nutrition-row-item"><span>Potassium:</span><span>8%</span></div>
-      <div class="nutrition-row-item"><span>Sodium:</span><span>46%</span></div>
-    </div>
   </div>
 
-  <div class="nutrition-header">
-    <h3>Allergen Information</h3>
-    <span class="nutrition-arrow">⌃</span>
-  </div>
-
-  <div class="allergen-text">
-    <p><strong>Big Mac Bun</strong> — Built from conformity.</p>
-    <p><strong>Beef Patty</strong> — Driven by endless desire.</p>
-    <p><strong>Lettuce</strong> — The illusion of balance.</p>
-    <p><strong>Sauce</strong> — Hidden influences shaping choices.</p>
-    <p><strong>Cheese</strong> — Comfort over growth.</p>
-    <p><strong>Pickles</strong> — The aftertaste of regret.</p>
-  </div>
 </div>
 
 </body>
