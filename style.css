@@ -31,39 +31,46 @@ body{
   border-radius:5px;
 }
 
-/* STORY SECTION */
-.story-container{
-  max-width:800px;
-  margin:80px auto;
-  text-align:left;
+/* HERO */
+.hero{
+  display:flex;
+  justify-content:center;
+  align-items:center;   /* THIS MAKES IT CENTER VERTICALLY */
+  gap:40px;
+  padding:80px 0;
+  max-width:1400px;
+  margin:0 auto;
 }
 
-.story-container h1{
-  font-size:60px;
-  text-align:center;
+/* BURGER LEFT CENTERED */
+.burger-container{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.burger-container img{
+  width:1275px; /* 750 + 70% */
+  max-width:100%;
+}
+
+/* TEXT */
+.hero-text{
+  max-width:520px;
+}
+
+.hero-text h1{
+  font-size:64px;
 }
 
 .cal{
-  text-align:center;
   font-size:22px;
-  margin-bottom:30px;
+  margin-bottom:20px;
 }
 
-.story-container p{
+.hero-text p{
   line-height:1.7;
   margin-bottom:20px;
-  font-size:16px;
-}
-
-/* BURGER CENTER */
-.burger-middle{
-  text-align:center;
-  margin:40px 0;
-}
-
-.burger-middle img{
-  width:1275px; /* 750 + 70% bigger */
-  max-width:100%;
 }
 
 /* INGREDIENTS */
@@ -87,7 +94,6 @@ body{
 
 .row div{
   width:140px;
-  text-align:center;
 }
 
 .row img{
