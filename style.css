@@ -31,40 +31,67 @@ body{
   border-radius:5px;
 }
 
-/* HERO */
-.hero{
-  display:flex;
-  justify-content:center;
-  align-items:flex-start;
-  gap:40px;
-  padding:80px 0;
-  max-width:1400px;
-  margin:0 auto;
+/* STORY SECTION */
+.story-container{
+  max-width:800px;
+  margin:80px auto;
+  text-align:left;
 }
 
-.burger{
-  width:750px;
-  margin-right:-20px;
-}
-
-.hero-text{
-  max-width:520px;
-}
-
-.hero-text h1{
-  font-size:64px;
-  font-weight:700;
-  margin-bottom:10px;
+.story-container h1{
+  font-size:60px;
+  text-align:center;
 }
 
 .cal{
+  text-align:center;
   font-size:22px;
-  margin-bottom:20px;
+  margin-bottom:30px;
 }
 
-.hero-text p{
-  font-size:16px;
+.story-container p{
   line-height:1.7;
-  color:#444;
-  margin-bottom:18px;
+  margin-bottom:20px;
+  font-size:16px;
+}
+
+/* BURGER CENTER */
+.burger-middle{
+  text-align:center;
+  margin:40px 0;
+}
+
+.burger-middle img{
+  width:1275px; /* 750 + 70% bigger */
+  max-width:100%;
+}
+
+/* INGREDIENTS */
+.ingredients{
+  background:#f6f6f6;
+  text-align:center;
+  padding:120px 40px;
+}
+
+.subtitle{
+  color:gray;
+  margin-bottom:50px;
+}
+
+.row{
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  gap:80px;
+}
+
+.row div{
+  width:140px;
+  text-align:center;
+}
+
+.row img{
+  width:120px;
+  height:120px;
+  object-fit:contain;
 }
